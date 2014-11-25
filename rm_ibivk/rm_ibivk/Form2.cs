@@ -16,5 +16,10 @@ namespace rm_ibivk
         {
             InitializeComponent();
         }
+
+        private void Form2_DockStateChanged(object sender, EventArgs e)
+        {
+            //this.DockState = WeifenLuo.WinFormsUI.Docking.DockState.Document;
+        }
     }
 }

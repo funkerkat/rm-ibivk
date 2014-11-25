@@ -26,15 +26,17 @@ namespace rm_ibivk
             Form2 frm2 = new Form2(); // These forms inherit from DockContent 
             frm2.ShowHint = DockState.Document;
             frm2.Show(dockPanel1);
+            //frm2.dockst
 
             Form3 frm3 = new Form3();
-            frm3.ShowHint = DockState.DockRight;
+            frm3.ShowHint = DockState.Document;
             frm3.Show(dockPanel1);
 
             Form4 frm4 = new Form4();
-            frm4.ShowHint = DockState.Float;
+           // frm4.ShowHint = DockState.Float;
+            frm4.ShowHint = DockState.Document;
             frm4.Show(dockPanel1);
-            frm4.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
+           // frm4.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
 
         }
     }
